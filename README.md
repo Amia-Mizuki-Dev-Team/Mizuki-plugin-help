@@ -1,28 +1,27 @@
 # Mizuki Plugin Help
 
-Mizuki Plugin Help is an internal help-menu plugin for the Mizuki Bot ecosystem.
+这是开发组内部维护的帮助菜单插件。
 
-## Status
+## 当前状态
 
-- Scope: development-team maintenance.
-- Usage: intended for the existing bot environment.
-- Documentation: this README records scope and maintenance notes only.
-- License: not selected yet.
+- 维护范围：开发组内部维护。
+- 使用范围：现有机器人环境。
+- 文档状态：只记录项目范围和维护注意事项。
+- 许可证状态：暂未选择。
 
-## Scope
+## 项目范围
 
-This plugin belongs to the display and navigation layer. It should index existing features instead of implementing business logic directly.
+本插件用于整理功能入口和说明文本，保持用户可见入口清晰一致。
 
-Typical responsibilities include:
+主要职责包括：
 
-- Maintaining the main help menu.
-- Grouping feature entries into clear categories.
-- Keeping visible labels consistent with project documentation.
-- Providing a stable fallback message style when rich output is not available.
+- 维护主帮助菜单。
+- 整理功能分类。
+- 保持名称与文档一致。
+- 提供稳定的文本展示。
 
-## Maintenance notes
+## 维护注意事项
 
-- Keep help entries short and stable.
-- Prefer common entry points over exhaustive explanations.
-- Update the menu when a plugin is added, renamed, hidden, or retired.
-- Keep this README aligned with the project index in the documentation site.
+- 入口应简短稳定。
+- 常用功能优先展示。
+- 项目调整后同步更新说明。
